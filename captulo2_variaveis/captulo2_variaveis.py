@@ -1,3 +1,4 @@
+# INÍCIO DO PROGRAMA
 nome=input("Digite um funcionário: ")
 empresa=input("Digite a instituição: ")
 qtde_funcionarios=int(input("Digite a qtde de funcionários: "))
