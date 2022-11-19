@@ -25,3 +25,4 @@ else:
             print("Paciente SEM prioridade")
     else:
         print("Paciente SEM prioridade")
+# NESSE EXEMPLO FOI SEGUIDO DENTRO DA IDENTAÇÃO O IS E O ELSE
