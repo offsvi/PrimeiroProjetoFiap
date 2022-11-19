@@ -1,3 +1,4 @@
+# INICIO DO PROGRAMA
 nome = input("Digite o nome: ")
 idade = int(input("Digite a idade: "))
 doenca_infectocontagiosa=input("Suspeita de doença infecto-contagiosa?").upper()
@@ -9,5 +10,5 @@ elif idade >= 65 and doenca_infectocontagiosa == "NAO":
     print("O paciente será direcionado para sala BRANCA - COM prioridade")
 elif idade < 65 and doenca_infectocontagiosa == "NAO":
     print("O paciente será direcionado para sala BRANCA - SEM prioridade")
-else:
+else: # SE NÃO FOR NENHUM DESSES IF IRÁ CAIR NESSE ELSE
     print("Responda a suspeita de doença infectocontagiosa com SIM ou NAO")
